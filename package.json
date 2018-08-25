@@ -1,0 +1,19 @@
+{
+  "name": "tomorrowland",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "start": "npm run build && electron ./dist/main.js"
+  },
+  "author": "Yusuke Ohashi",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "2.0.8",
+    "tslint": "5.11.0",
+    "typescript": "3.0.1"
+  }
+}
